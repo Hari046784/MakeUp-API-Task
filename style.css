@@ -1,0 +1,41 @@
+body{
+    letter-spacing: 1px;
+    line-height: 1.4;
+}
+
+h1{
+    font-family: 'Gruppo',monospace;
+    text-align: center;
+    font-size: 80px;
+    padding: 20px
+}
+ /* main css style using inline block and box shadow  */
+
+.user {
+    display: inline-block;
+    text-align: center;
+    width: 300px;
+    margin: 5%;
+    font-size: 12px;
+    box-shadow: -15px 27px 53px -8px rgb(0,0,0);
+    -webkit-box-shadow: -15px 27px 53px -8px rgb(0,0,0);
+    -moz-box-shadow: -15px 27px 53px -8px rgb(0,0,0);
+    font-family: 'Abel', sans-serif;
+
+}
+.brandname{
+    padding: 20px;
+    
+}
+.imagestyle{
+    width: 100%;
+}
+.user {
+    transition: transform 250ms;
+}
+.brand-description{
+    margin: 15px;
+}
+.user:hover {
+    transform: translateY(-10px)
+}
